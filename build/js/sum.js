@@ -1,7 +1,11 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.sum = void 0;
 const sum = (a, b) => {
     return a + b;
 };
-exports.sum = sum;
+const difference = (a) => {
+    let different;
+    a >= 19 ? different = (a - 19) * 3 : different = a - 19;
+};
+module.exports = {
+    sum
+};

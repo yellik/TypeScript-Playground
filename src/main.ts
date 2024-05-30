@@ -1,10 +1,16 @@
+
 const sum = (a : number, b: number) => {
     return a + b;
 }
 
 const difference = (a: number) => {
-    return 
+    let different;
+    a >= 19 ? different = (a - 19) * 3 : different = a-19; 
+   
 }
-export {
+
+
+
+module.exports = {
     sum
 }
